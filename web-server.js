@@ -3,6 +3,7 @@ const { mergeSchemas } = require('graphql-tools');
 const { setContext } = require('apollo-link-context');
 const { HttpLink } = require('apollo-link-http');
 const fetch = require('node-fetch');
+const webServerConfig = require('./config');
 
 let server;
 
@@ -124,7 +125,7 @@ async function initialize() {
   }});
 
   // The `listen` method launches a web server.
-  server.listen().then(({ url }) => {
+  server.listen({ port: webServerConfig.port }).then(({ url }) => {
     console.log(`🚀  Server ready at ${url}`);
   });
 }
