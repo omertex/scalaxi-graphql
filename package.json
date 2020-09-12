@@ -23,6 +23,6 @@
     "graphql": "^14.6.0",
     "graphql-tools": "^4.0.6",
     "graphql-type-datetime": "^0.2.4",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   }
 }
