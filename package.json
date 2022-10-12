@@ -19,7 +19,7 @@
   "dependencies": {
     "apollo-link-context": "^1.0.19",
     "apollo-link-http": "^1.5.16",
-    "apollo-server": "^2.9.16",
+    "apollo-server": "^2.25.4",
     "graphql": "^14.6.0",
     "graphql-tools": "^4.0.6",
     "graphql-type-datetime": "^0.2.4",
